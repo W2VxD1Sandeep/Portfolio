@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yug-Diwan</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: rgb(5, 2, 70);
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: rgb(15, 6, 74);
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 98px;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+
+        nav ul li a:hover {
+            color: rgb(129, 129, 248);
+            font-size: 1.005rem;
+        }
+
+
+        .left {
+            font-size: 2rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 68px 0;
+        }
+
+        .firstsection > div {
+            width: 30%;
+        }
+
+        .leftsection {
+            font-size: 3rem;
+            margin: 50px 0;
+        }
+
+        .leftsection .btn {
+            padding: 12px;
+            background: #1e2167;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .leftsection .buttons {
+            padding: 50px 0;
+        }
+
+        .rightsection img{
+            width: 100%;
+            margin: 50px 0;
+        }
+
+        .yugi {
+            color: rgb(154, 96, 210);
+        }
+
+        #element {
+            color: rgb(154, 96, 210);
+        }
+
+        main hr {
+            border: 0;
+            background-color: rgb(130, 130, 235);
+            height: 1px;
+            margin: 40px 84px;
+        }
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 90vh;
+        }
+
+        .secondsection h1 {
+            font-size: 2rem;
+        }
+
+        .text-gray {
+            color: rgb(160, 160, 208);
+        }
+
+        .secondsection .box {
+            background-color: rgb(130, 130, 235);
+            width: 80vw;
+            height: 5px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondsection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: rgb(130, 130, 235);
+            margin: 0 100px;
+        }
+
+        .secondsection .image-top {
+            width: 23px;
+            position: relative;
+            top: -17px;
+            left: -9px;
+        }
+
+        .secondsection .vertical-text {
+            position: relative;
+            top: 75px;
+            width: 150px;
+        }
+
+        .secondsection .vertical-desc {
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 9px;
+        }
+
+
+        footer {
+            background-color: rgb(13, 15, 40);
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+            margin: auto;
+        }
+
+        .footer > div {
+            width: 450px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                <li>Yug-Diwan Portfolio</li>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="/"> Home </a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi, My name is <span class="yugi">Yug Diwan Patahar. </span> 
+                I am a CyberSecurity Student, I play CTF.
+                <span id="element"></span>
+                <br>
+                <button class="btn">Download Resume</button>
+                <button class="btn">Visit GitHub</button>
+            </div>
+            <div class="rightsection">
+                <img src="Hacker.jpeg" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="HTB.png" alt="">
+                    <div class="vertical-text">
+                        Graduated in Cyber CyberSecurity 2020 - 2024
+                    </div>
+                <div class="vertical-desc">
+                    Hello, Nice To Meet with you everyone of you. It's my pleasure, I want to discuss about about cyber crimes those people who live in the village and they don't know to use bank, please contact in the bank monthly to check the amount is secure or not.
+                </div>
+            </div>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="h1.png" alt="">
+                    <div class="vertical-text">
+                        Graduated in Cyber CyberSecurity 2020 - 2024
+                    </div>
+                <div class="vertical-desc">
+                    Hello, Nice To Meet with you everyone of you. It's my pleasure, I want to discuss about about cyber crimes those people who live in the village and they don't know to use bank, please contact in the bank monthly to check the amount is secure or not.
+                </div>
+            </div>
+            
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Yug-Diwan CyberSecurity Enthuastic</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact Me</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact Me</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact Me</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; yugdiwan.com.np | All rights reserved
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Playing CTFs Like ', 'Web, Pwn', 'Forensics, Misc, etc.'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+</html>
